@@ -9,7 +9,6 @@ import { NavBarPropTypes } from "./_types";
 import { ModeContext } from "../../context/ThemeContext";
 import { mobileStyles } from "./_styles";
 import { mobileVariants } from "./_motion";
-import { VerticalLine } from "../Styled";
 import ModeIcon from "../../svgs/Mode";
 import Menu from "../../svgs/Menu";
 import AeroIcon from "../../svgs/Aero";
@@ -152,27 +151,12 @@ const MobileNavBar = ({
         </Grid>
         <Grid
           item
-          xs={6}
-          container
-          direction="column"
-          justifyContent="flex-start"
-          alignItems="center"
+          xs={2}
+          component={motion.div}
+          variants={mobileVariants.navMenuItem}
+          sx={classes.copyright}
         >
-          <Grid item xs={10}>
-            <VerticalLine
-              variants={mobileVariants.navMenuLine}
-              transition={mobileVariants.navMenuLine.transition}
-            />
-          </Grid>
-          <Grid
-            item
-            xs={2}
-            component={motion.div}
-            variants={mobileVariants.navMenuItem}
-            sx={classes.copyright}
-          >
-            © / 2024
-          </Grid>
+          © / 2024
         </Grid>
       </Grid>
     </Grid>

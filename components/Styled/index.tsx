@@ -15,11 +15,6 @@ export const HorizontalLine = styled("div")(({ theme }) => ({
   height: "1px",
 }));
 
-export const VerticalLine = styled(motion.div)(({ theme }) => ({
-  backgroundColor: theme.palette.primary.main,
-  width: "1px",
-}));
-
 export const ContactCard = styled(Card)(({ theme }) => ({
   background: "transparent",
   backgroundColor:

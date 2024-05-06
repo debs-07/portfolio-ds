@@ -112,5 +112,10 @@ export const mobileStyles = (theme: string) => ({
     "&:hover": { backgroundColor: "transparent" },
   },
 
-  copyright: { padding: "1em", display: "flex", alignItems: "center" },
+  copyright: {
+    padding: "1em",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "flex-end",
+  },
 });
