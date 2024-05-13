@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import CssBaseline from "@mui/material/CssBaseline";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 // Internal dependencies
 import { ModeProvider } from "../../context/ThemeContext";
@@ -33,6 +34,7 @@ export default function RootLayout({
           </ModeProvider>
         </AppRouterCacheProvider>
       </body>
+      <GoogleAnalytics gaId="G-FVMCD22TJ9" />
     </html>
   );
 }
