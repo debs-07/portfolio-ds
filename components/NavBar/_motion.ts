@@ -43,7 +43,7 @@ export const mobileVariants = {
   navBar: {
     visible: ({ openNavMenu, bgColorforNav }: NavBarVariantPropTypes) => ({
       backgroundColor: bgColorforNav,
-      height: openNavMenu ? "auto" : "10vh",
+      height: openNavMenu ? "auto" : "10%",
       transition: {
         height: {
           duration: 0.5,

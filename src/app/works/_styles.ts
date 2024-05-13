@@ -11,7 +11,7 @@ export const webStyles = () => ({
 
 export const mobileStyles = () => ({
   wrapper: {
-    height: "100vh",
+    height: "100%",
     "@media screen and (min-width:950px)": {
       display: "none",
     },

@@ -1,6 +1,7 @@
 export const commonStyles = (theme: string, wallpaperStatus: string) => ({
   pageWrapper: {
-    height: "100vh",
+    position: "absolute",
+    height: "100%",
     background: wallpaperStatus === "yes" ? `url(/image/${theme}.jpg)` : "none",
     backgroundRepeat: "none",
     backgroundSize: "cover",
