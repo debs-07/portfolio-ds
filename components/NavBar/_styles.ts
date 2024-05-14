@@ -1,6 +1,6 @@
 export const webStyles = (theme: string) => ({
   navBar: {
-    height: "25vh",
+    height: "25%",
     padding: "5.5rem 7rem 3.5rem 7rem",
     "@media screen and (max-width:950px)": {
       display: "none",

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 // Internal dependencies
 import { SkillChip } from "../../../components/Styled";
-import { mobileStyles } from "./_style";
+import { mobileStyles } from "./_styles";
 import { ExperiancePropTypes } from "./_types";
 import { mobileVariants } from "./_motion";
 

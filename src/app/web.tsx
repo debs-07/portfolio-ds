@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import AeroIcon from "../../svgs/Aero";
 import MilkyWayIcon from "../../svgs/Milkyway";
 import BottomBar from "../../components/BottomBar";
-import { webStyles } from "./_style";
+import { webStyles } from "./_styles";
 import { webVariants } from "./_motion";
 import { HighlightChip } from "../../components/Styled";
 

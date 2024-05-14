@@ -7,7 +7,7 @@ import Link from "next/link";
 import { HorizontalLine } from "../Styled";
 import { BottomBarPropTypes } from "./_types";
 import { commonVariants } from "./_motion";
-import { webStyles } from "./_style";
+import { webStyles } from "./_styles";
 
 const WebBottomBar = ({ socials }: BottomBarPropTypes) => {
   const classes = webStyles();

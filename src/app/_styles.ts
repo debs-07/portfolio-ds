@@ -1,6 +1,6 @@
 export const webStyles = () => ({
   wrapper: {
-    minHeight: "75vh",
+    minHeight: "75%",
     padding: "5rem 7rem 0 7rem",
     overflow: "auto",
     "@media screen and (max-width:950px)": {

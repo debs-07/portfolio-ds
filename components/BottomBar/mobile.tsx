@@ -6,7 +6,7 @@ import Link from "next/link";
 // Internal dependencies
 import { BottomBarPropTypes } from "./_types";
 import { commonVariants } from "./_motion";
-import { mobileStyles } from "./_style";
+import { mobileStyles } from "./_styles";
 
 const MobileBottomBar = ({ socials }: BottomBarPropTypes) => {
   const classes = mobileStyles();

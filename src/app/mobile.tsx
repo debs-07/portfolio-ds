@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import BottomBar from "../../components/BottomBar";
 import MilkyWayIcon from "../../svgs/Milkyway";
 import AeroIcon from "../../svgs/Aero";
-import { mobileStyles } from "./_style";
+import { mobileStyles } from "./_styles";
 import { mobileVariants } from "./_motion";
 import { HighlightChip } from "../../components/Styled";
 
